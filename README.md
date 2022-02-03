@@ -1,5 +1,6 @@
 # MachineLearning
-# Here I put the files and textbooks related to machine learning.
+
+Here I put the files and textbooks related to machine learning.
 
 
 Each of the machine learning algorithms is located in separate folders.

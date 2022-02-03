@@ -44,8 +44,8 @@ x_train, x_test, y_train, y_test = train_test_split(scale(load().data), load().t
 
 model = LeastSquares()
 model.fit(x_train, y_train)
-prediction = model.predict(x_test)
-print("My LinearRegression MAE:", model.mae(y_test, prediction))
+predictions = model.predict(x_test)
+print("My LinearRegression MAE:", model.mae(y_test, predictions))
 
 # scikit-learn way->
 reg = LinearRegression(fit_intercept=True, normalize=False)
